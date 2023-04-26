@@ -42,4 +42,9 @@ function perguntas(){
     let p10 = Number(prompt("Qual o melhor vinho para acompanhar carne vermelha?"))
     let msg = document.getElementById('msg')
     msg.innerHTML = `<h2>Processando o resultado</h2>`
+    
+}
+
+function respostas() {
+  const bot1 = document.getElementById()
 }
