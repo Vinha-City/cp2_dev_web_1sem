@@ -42,9 +42,25 @@ function perguntas(){
     let p10 = Number(prompt("Qual o melhor vinho para acompanhar carne vermelha?"))
     let msg = document.getElementById('msg')
     msg.innerHTML = `<h2>Processando o resultado</h2>`
+
+    function respostas() {
+      const bot1 = document.getElementById('bot1');
+      const bot2 = document.getElementById('bot2');
+      const bot3 = document.getElementById('bot3');
+      const bot4 = document.getElementById('bot4');
+      const bot5 = document.getElementById('bot5');
+      const bot6 = document.getElementById('bot6');
+      const bot7 = document.getElementById('bot7');
+      const bot8 = document.getElementById('bot8');
+      const bot9 = document.getElementById('bot9');
+      const bot10 = document.getElementById('bot10');
+    
+      bot1.addEventListener('click', function() {
+        var paragrafo = document.getElementById('bot1');
+        paragrafo.innerHTML = '1. Como é feito o vinho? O vinho é feito a partir da fermentação das uvas. As uvas são colhidas e esmagadas para extrair o suco, que é colocado em recipientes para fermentar, geralmente com a adição de leveduras para converter os açúcares em álcool. O vinho é então armazenado em barris ou garrafas para maturação antes de ser engarrafado e vendido.'
+      })
+    }
     
 }
 
-function respostas() {
-  const bot1 = document.getElementById()
-}
+
